@@ -15,7 +15,7 @@
  <!-- font awasome cnd link -->
  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
-<body class="mx-auto container ">
+<body class="mx-auto container bg-gray-200  ">
   <!-- header section -->
    <header>
     <div class="navbar bg-base-100  ">
@@ -99,23 +99,116 @@
    </header>
   
   <!-- main section -->
-   <section>
-    <div class="card lg:card-side bg-base-100 shadow-xl px-20 py-20">
+   <section class="">
+    <div class="card lg:card-side  md:px-20 md:py-20 ">
       
-      <div class="card-body">
-        <h2 class="card-title">New album is released!</h2>
-        <p>Click the button to listen on Spotiwhy app.</p>
-        <div class="card-actions justify-end">
-          <button class="btn btn-primary">Listen</button>
+      <div class="card-body  text-left max-w-3xl ">
+        <div class="bg-green-400 items-center rounded-3xl justify-left  w-40 flex ">
+          <i class="fa-solid fa-square-arrow-up-right  rounded-full text-xl ml-6  ;
+    "></i>
+          <a class="btn text-md bg-transparent border-none text-md  text-left">Action</a>
+          
+        </div>
+        <h2 class="card-title">We design thoughtful, liveable spaces</h2>
+        <p>The barn house captivates with its blend of rustic charm and 
+          modern sophistication, featuring weathered wood, sleek metal accents.</p>
+        <div class="sec-1 bg-white rounded-lg px-4 py-4 flex items-center justify-start">
+          <div><img src="./assets/commercial.png" alt="">
+          </div>
+          <div class="px-3">
+            <h1>Commercial</h1>
+          <p>The barn house captivates with its blend of rustic charm and modern.</p>
+        </div>
+        </div>
+        <div class="sec-1 bg-white rounded-lg px-4 py-4 flex items-center justify-start my-4 flex-1">
+          <div><img src="./assets/residential.png" alt="">
+          </div>
+          <div class="px-3">
+            <h1>Residential</h1>
+          <p>The barn house captivates with its blend of rustic charm and modern.</p>
+        </div>
         </div>
       </div>
-      <figure>
+      <figure class=" mx-8 my-8 md:mx-0 md:my-0 ">
         <img
           src="./assets/Rectangle.png"
           alt="Album" />
       </figure>
     </div>
-   </section>
+   </section>\
+   <!-- card section -->
+    <section>
+      <div class=" py-20 text-center mx-auto rounded-lg">
+        <div class="bg-white items-center rounded-3xl justify-center text-center  w-40 mx-auto">
+          <i class="fa-solid fa-square-arrow-up-right  rounded-full text-xl ml-6  ;
+    "></i>
+          <a class="btn text-md bg-transparent border-none text-md font-semibold text-center">How we works</a>
+          
+        </div>
+        <h1 class="text-5xl font-extrabold py-6">Our Works Process</h1>
+        <p class="py-6 text-md md:text-lg">
+          The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents.
+        </p>
+       
+      </div>
+      <div class=" grid grid-cols-1 md:grid-cols-4 gap-5 container mx-auto px-20">
+
+
+        <div class="card bg-base-100  shadow-xl justify-start items-start bg-[#E7C1D3]">
+          <figure>
+            <img class="px-6 pt-6"
+              src="./assets/concept.png"
+              alt="concept" />
+          </figure>
+          <div class="card-body ">
+            <h2 class="card-title">Concept</h2>
+            <p>The barn house captivates with its blend of rustic charm and modern.</p>
+            
+          </div>
+        </div>
+
+        <div class="card bg-base-100  shadow-xl justify-start items-start bg-[#EFDA6E]">
+          <figure>
+            <img class="px-6 pt-6"
+              src="./assets/flow-chart.png"
+              alt="flow-chart" />
+          </figure>
+          <div class="card-body">
+            <h2 class="card-title">Design Process</h2>
+            <p>The barn house captivates with its blend of rustic charm and modern.</p>
+            
+          </div>
+        </div>
+
+        <div class="card bg-base-100  shadow-xl justify-start items-start bg-[#A4DAC3]">
+          <figure>
+            <img class="px-6 pt-6"
+              src="./assets/vision.png"
+              alt="vision" />
+          </figure>
+          <div class="card-body">
+            <h2 class="card-title">Supervision</h2>
+            <p>The barn house captivates with its blend of rustic charm and modern.</p>
+            
+          </div>
+        </div>
+
+        <div class="card bg-base-100  shadow-xl justify-start items-start bg-[#77AAEA]">
+          <figure>
+            <img class="px-6 pt-6"
+              src="./assets/budget-planning.png"
+              alt="Shoes" />
+          </figure>
+          <div class="card-body">
+            <h2 class="card-title">Budget Planning</h2>
+            <p>The barn house captivates with its blend of rustic charm and modern.</p>
+            
+          </div>
+        </div>
+
+
+      </div>
+    </section>
   <!-- footer section -->
 </body>
 </html>
