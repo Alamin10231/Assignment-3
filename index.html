@@ -15,69 +15,107 @@
  <!-- font awasome cnd link -->
  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
-<body class="mx-auto container">
+<body class="mx-auto container ">
   <!-- header section -->
-  <div class="navbar bg-base-100  ">
-    <div class="navbar-start">
-      <div class="dropdown">
-        <div tabindex="0" role="button" class="btn btn-ghost lg:hidden flex-1 navbar-">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            class="h-5 w-5"
-            fill="none"
-            viewBox="0 0 24 24"
-            stroke="currentColor">
-            <path
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              stroke-width="2"
-              d="M4 6h16M4 12h8m-8 6h16" />
-          </svg>
+   <header>
+    <div class="navbar bg-base-100  ">
+      <div class="navbar-start">
+        <div class="dropdown">
+          <div tabindex="0" role="button" class="btn btn-ghost lg:hidden flex-1 navbar-">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="h-5 w-5"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor">
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M4 6h16M4 12h8m-8 6h16" />
+            </svg>
+          </div>
+          <ul
+            tabindex="0"
+            class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+            <li><a class="font-bold">Home</a></li>
+            <li><a>Service</a></li>
+            <li><a>Portfolio</a></li>
+            <li><a>Blog</a></li>
+            <li><a>Contact Us</a></li>
+          </ul>
         </div>
-        <ul
-          tabindex="0"
-          class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+        
+        <div class=" navbar-start items-center justify-center flex">
+          <i class="fa-solid fa-square-arrow-up-right  rounded-full text-xl md:text-2xl bg-green-400 p-4 h-14 ;
+          ]"></i> 
+          <a class="btn btn-ghost text-4xl text-green-400 ">Rinterio</a>
+        </div>
+        
+        
+      </div>
+      <div class="navbar-center hidden lg:flex ">
+        <ul class="menu menu-horizontal px-1 text-2xl font-extralight ">
           <li><a class="font-bold">Home</a></li>
-          <li><a>Service</a></li>
-          <li><a>Portfolio</a></li>
-          <li><a>Blog</a></li>
-          <li><a>Contact Us</a></li>
+          <li><a class="font-extralight">Service</a></li>
+          <li><a class="font-extralight">Portfolio</a></li>
+          <li><a class="font-extralight">Blog</a></li>
+          <li><a class="font-extralight">Contact Us</a></li>
         </ul>
       </div>
       
-      <div class=" navbar-start items-center justify-center flex-1">
-        <i class="fa-solid fa-square-arrow-up-right  rounded-full text-2xl  bg-green-400 p-4 h-14 ;
-        ]"></i> 
-        <a class="btn btn-ghost text-4xl text-green-400 ">Rinterio</a>
+      <div class="navbar-end hidden md:flex">
+        <div class="items-center text-3xl">
+          <i class="fa-solid fa-cart-shopping bg-white rounded-full "></i>
+          <i class="fa-solid fa-magnifying-glass px-6  rounded-full "></i>
+        </div>
+        <div class="bg-green-400 items-center rounded-3xl justify-center px-4">
+          <a class="btn text-md bg-transparent border-none text-xl  ">Button</a>
+          <i class="fa-solid fa-square-arrow-up-right  rounded-full text-2xl   ;
+    "></i>
+        </div>
+       
       </div>
-      
-      
     </div>
-    <div class="navbar-center hidden lg:flex ">
-      <ul class="menu menu-horizontal px-1 text-2xl font-extralight ">
-        <li><a class="font-bold">Home</a></li>
-        <li><a class="font-extralight">Service</a></li>
-        <li><a class="font-extralight">Portfolio</a></li>
-        <li><a class="font-extralight">Blog</a></li>
-        <li><a class="font-extralight">Contact Us</a></li>
-      </ul>
-    </div>
-    
-    <div class="navbar-end hidden md:flex">
-      <div class="items-center text-3xl">
-        <i class="fa-solid fa-cart-shopping bg-white rounded-full "></i>
-        <i class="fa-solid fa-magnifying-glass px-6  rounded-full "></i>
+    <!-- banner section -->
+     <div class="text-center items-center justify-center bg-white ">
+      <img class=" mx-auto" src="./assets/banner.png" alt="">
+      <div class="hero  ">
+        <div class="hero-content text-center">
+          <div class="">
+            <h1 class="text-5xl font-extrabold py-6">A barn house of this design has a striking appearance</h1>
+            <p class="py-6 text-md md:text-lg">
+              The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents, and large windows that flood the space with natural light.
+            </p>
+            <div class="bg-green-400 items-center rounded-3xl justify-center px-4 mx-auto w-48 flex ">
+              <a class="btn text-md bg-transparent border-none text-md md:text-lg  ">View Details</a>
+              <i class="fa-solid fa-square-arrow-up-right  rounded-full text-2xl   ;
+        "></i>
+            </div>
+          </div>
+        </div>
       </div>
-      <div class="bg-green-400 items-center rounded-3xl justify-center px-4">
-        <a class="btn text-md bg-transparent border-none text-xl  ">Button</a>
-        <i class="fa-solid fa-square-arrow-up-right  rounded-full text-2xl   ;
-  "></i>
-      </div>
-     
-    </div>
-  </div>
+     </div>
+   </header>
+  
   <!-- main section -->
-
+   <section>
+    <div class="card lg:card-side bg-base-100 shadow-xl px-20 py-20">
+      
+      <div class="card-body">
+        <h2 class="card-title">New album is released!</h2>
+        <p>Click the button to listen on Spotiwhy app.</p>
+        <div class="card-actions justify-end">
+          <button class="btn btn-primary">Listen</button>
+        </div>
+      </div>
+      <figure>
+        <img
+          src="./assets/Rectangle.png"
+          alt="Album" />
+      </figure>
+    </div>
+   </section>
   <!-- footer section -->
 </body>
 </html>
