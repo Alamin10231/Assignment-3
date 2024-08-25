@@ -7,3 +7,9 @@ body{
    width: 100%;
    
 }
+.paper-pic{
+    background-image: url(./assets/bg.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+}
