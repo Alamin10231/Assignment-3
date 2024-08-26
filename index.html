@@ -15,12 +15,19 @@
  <!-- font awasome cnd link -->
  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
-<body class="mx-auto container bg-gray-200  ">
+<body class="mx-auto container bg-gray-200">
   <!-- header section -->
   <header>
     <div class="navbar bg-base-100">
-        <div class="navbar-start">
-            <div class="dropdown">
+        <div class=" flex-1 ">
+          <a class="btn btn-ghost text-xl navbar-start md:navbar-center "> <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26"
+            fill="currentColor" class="bi bi-arrow-up-right-circle-fill arrow-text-black text-[#ABEF5F] "
+            viewBox="0 0 16 16">
+            <path
+                d="M0 8a8 8 0 1 0 16 0A8 8 0 0 0 0 8m5.904 2.803a.5.5 0 1 1-.707-.707L9.293 6H6.525a.5.5 0 1 1 0-1H10.5a.5.5 0 0 1 .5.5v3.975a.5.5 0 0 1-1 0V6.707z" />
+        </svg>
+        </svg>Rinterio</a>
+            <div class="dropdown  navbar-end flex">
                 <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
                     <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
                         stroke="currentColor">
@@ -29,27 +36,20 @@
                     </svg>
                 </div>
             </div>
-            <a class="btn btn-ghost text-xl"> <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26"
-                    fill="currentColor" class="bi bi-arrow-up-right-circle-fill arrow-text-black text-[#ABEF5F] "
-                    viewBox="0 0 16 16">
-                    <path
-                        d="M0 8a8 8 0 1 0 16 0A8 8 0 0 0 0 8m5.904 2.803a.5.5 0 1 1-.707-.707L9.293 6H6.525a.5.5 0 1 1 0-1H10.5a.5.5 0 0 1 .5.5v3.975a.5.5 0 0 1-1 0V6.707z" />
-                </svg>
-                </svg>Rinterio</a>
+           
         </div>
-        <div class="navbar-center hidden lg:flex">
-            <ul class="menu menu-horizontal px-1">
-                <li><a>Home</a></li>
-                <li><a>Service</a></li>
-                <li><a>Portfolio</a></li>
-                <li><a>Blog</a></li>
-                <li><a>Contact Us</a></li>
-            </ul>
+        
+          
 
+            <div class="navbar-center hidden lg:flex list-none space-x-8 ">
+              <li><a class="font-bold">Home</a></li>
+              <li><a>Service</a></li>
+              <li><a>Portfolio</a></li>
+              <li><a>About Us</a></li>
+            </div>
+        
 
-        </div>
-
-        <div class="navbar-end space-x-4 space-x-reverse hidden md:flex">
+        <div class="navbar-end  space-x-4  hidden md:flex">
             <button class="btn btn-ghost btn-circle border-current ">
                 <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
                     stroke="currentColor">
@@ -58,7 +58,7 @@
                 </svg>
 
             </button>
-            <button class="btn btn-ghost btn-circle border-current">
+            <button class="btn btn-ghost btn-circle border-current bg-white">
                 <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
                     stroke="currentColor">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
@@ -66,15 +66,33 @@
                 </svg>
             </button>
 
-            <a class="btn bg-green ">Book Consult <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
-                    fill="currentColor " class="bi bi-arrow-up-right-circle-fill" viewBox="0 0 16 16">
-                    <path
-                        d="M0 8a8 8 0 1 0 16 0A8 8 0 0 0 0 8m5.904 2.803a.5.5 0 1 1-.707-.707L9.293 6H6.525a.5.5 0 1 1 0-1H10.5a.5.5 0 0 1 .5.5v3.975a.5.5 0 0 1-1 0V6.707z" />
-                </svg></a>
+            <a class="btn bg-[#ABEF5F] rounded-3xl md:text-lg">Book Consult <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+              fill="currentColor " class="bi bi-arrow-up-right-circle-fill w-6 h-6" viewBox="0 0 16 16">
+              <path
+                  d="M0 8a8 8 0 1 0 16 0A8 8 0 0 0 0 8m5.904 2.803a.5.5 0 1 1-.707-.707L9.293 6H6.525a.5.5 0 1 1 0-1H10.5a.5.5 0 0 1 .5.5v3.975a.5.5 0 0 1-1 0V6.707z" />
+          </svg></a>
 
         </div>
     </div>
-
+    <!-- header section -->
+     <div>
+      <div class=" bg-white mx-auto items-center justify-center text-center ">
+        <img class="mx-auto" src="./assets/banner.png" alt=""> 
+        <div class="hero-content text-center">
+          <div class=" text-center md:ml-56">
+            <h1 class="text-5xl font-bold">A barn house of this design has a striking appearance</h1>
+            <p class="py-6">
+              The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents, and large windows that flood the space with natural light.
+            </p>
+            <a class="btn bg-[#a0d761]  rounded-3xl md:text-lg">View Details <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+              fill="currentColor " class="bi bi-arrow-up-right-circle-fill  w-6 h-6" viewBox="0 0 16 16">
+              <path
+                  d="M0 8a8 8 0 1 0 16 0A8 8 0 0 0 0 8m5.904 2.803a.5.5 0 1 1-.707-.707L9.293 6H6.525a.5.5 0 1 1 0-1H10.5a.5.5 0 0 1 .5.5v3.975a.5.5 0 0 1-1 0V6.707z" />
+          </svg></a>
+          </div>
+        </div>
+      </div>
+     </div>
 </header>
   
   <!-- main section -->
@@ -82,12 +100,11 @@
     <div class="card lg:card-side  md:px-20 md:py-20 ">
       
       <div class="card-body  text-left max-w-3xl ">
-        <div class="bg-[#ABEF5F] items-center rounded-3xl justify-left  w-40 flex ">
-          <i class="fa-solid fa-square-arrow-up-right  rounded-full text-xl ml-6  ;
-    "></i>
-          <a class="btn text-md bg-transparent border-none text-md  text-left">Action</a>
-          
-        </div>
+        <a class="btn bg-white rounded-3xl  w-40 "><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+          fill="currentColor " class="bi bi-arrow-up-right-circle-fill " viewBox="0 0 16 16">
+          <path
+              d="M0 8a8 8 0 1 0 16 0A8 8 0 0 0 0 8m5.904 2.803a.5.5 0 1 1-.707-.707L9.293 6H6.525a.5.5 0 1 1 0-1H10.5a.5.5 0 0 1 .5.5v3.975a.5.5 0 0 1-1 0V6.707z" />
+      </svg>About Us</a>
         <h2 class="card-title">We design thoughtful, liveable spaces</h2>
         <p>The barn house captivates with its blend of rustic charm and 
           modern sophistication, featuring weathered wood, sleek metal accents.</p>
@@ -119,9 +136,11 @@
     <section>
       <div class=" py-20 text-center mx-auto rounded-lg">
         <div class="bg-white items-center rounded-3xl justify-center text-center  w-40 mx-auto flex">
-          <i class="fa-solid fa-square-arrow-up-right  rounded-full text-xl ml-6  ;
-    "></i>
-          <a class="btn text-md bg-transparent border-none text-md font-semibold text-center">How we works</a>
+          <a class="btn bg-white rounded-3xl  w-40 "><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+            fill="currentColor " class="bi bi-arrow-up-right-circle-fill " viewBox="0 0 16 16">
+            <path
+                d="M0 8a8 8 0 1 0 16 0A8 8 0 0 0 0 8m5.904 2.803a.5.5 0 1 1-.707-.707L9.293 6H6.525a.5.5 0 1 1 0-1H10.5a.5.5 0 0 1 .5.5v3.975a.5.5 0 0 1-1 0V6.707z" />
+        </svg>How we works</a>
           
         </div>
         <h1 class="text-5xl font-extrabold py-4">Our Works Process</h1>
@@ -191,13 +210,15 @@
     <!-- grid section -->
      <div>
       <div class=" py-20 text-center mx-auto rounded-lg">
-        <div class="bg-white items-center rounded-3xl justify-center text-center  w-40 mx-auto flex">
-          <i class="fa-solid fa-square-arrow-up-right  rounded-full text-xl ml-6  ;
-    "></i>
-          <a class="btn text-md bg-transparent border-none text-md font-semibold text-center">How we works</a>
+         <div class="items-center rounded-3xl justify-center text-center  w-48 mx-auto flex"> 
+          <a class="btn bg-[#a0d761]  rounded-3xl md:text-md">View Details <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+            fill="currentColor " class="bi bi-arrow-up-right-circle-fill  w-6 h-6" viewBox="0 0 16 16">
+            <path
+                d="M0 8a8 8 0 1 0 16 0A8 8 0 0 0 0 8m5.904 2.803a.5.5 0 1 1-.707-.707L9.293 6H6.525a.5.5 0 1 1 0-1H10.5a.5.5 0 0 1 .5.5v3.975a.5.5 0 0 1-1 0V6.707z" />
+        </svg></a>
           
         </div>
-        <h1 class="text-5xl font-extrabold py-4">Our Works Process</h1>
+        <h1 class="text-5xl font-extrabold py-4">Our Latest Portfolio</h1>
         <p class="py-6 text-md md:text-lg">
           The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents.
         </p>
@@ -215,8 +236,12 @@
             
             ">
               <h1 class="text-xl font-bold text-[24px]">Commercial</h1>
-              <p class="text-gray-600 font-500 ">The barn house captivates with its blend <br> of rustic charm <br> and modern. The barn house captivates with its blend of rustic charm and modern .</p>
-              <button>View Details</button>
+              <p class=" font-500 ">The barn house captivates with its blend <br> of rustic charm <br> and modern. The barn house captivates with its blend of rustic charm and modern .</p>
+              <a class="btn bg-white shadow-none border-none  rounded-3xl md:text-sm">View Details <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                fill="currentColor " class="bi bi-arrow-up-right-circle-fill text-[#a0d761] w-6 h-6" viewBox="0 0 16 16">
+                <path
+                    d="M0 8a8 8 0 1 0 16 0A8 8 0 0 0 0 8m5.904 2.803a.5.5 0 1 1-.707-.707L9.293 6H6.525a.5.5 0 1 1 0-1H10.5a.5.5 0 0 1 .5.5v3.975a.5.5 0 0 1-1 0V6.707z" />
+            </svg></a>
             </div>
           </div>
           <!-- Second Column (30%) -->
@@ -242,7 +267,11 @@
             <div class="ml-4">
               <h1 class="text-xl font-bold">Commercial</h1>
               <p class="text-gray-600">The barn house captivates with its blend of rustic charm and modern. The barn house captivates with its blend of rustic charm and modern .</p>
-              <button>View Details</button>
+              <a class="btn bg-white shadow-none border-none  rounded-3xl md:text-sm">View Details <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                fill="currentColor " class="bi bi-arrow-up-right-circle-fill text-[#a0d761] w-6 h-6" viewBox="0 0 16 16">
+                <path
+                    d="M0 8a8 8 0 1 0 16 0A8 8 0 0 0 0 8m5.904 2.803a.5.5 0 1 1-.707-.707L9.293 6H6.525a.5.5 0 1 1 0-1H10.5a.5.5 0 0 1 .5.5v3.975a.5.5 0 0 1-1 0V6.707z" />
+            </svg></a>
             </div>
           </div>
           <!-- Third Column (20%) -->
@@ -392,12 +421,16 @@
            
             
           </div>
-          <textarea class="textarea textarea-bordered text-left items-center w-[100%] md:w-[48%]  flex my-8  h-40 md:mx-auto col-span-4 " placeholder="write yhour message here"></textarea>
-          <div class="bg-[#ABEF5F] items-center rounded-3xl justify-center px-4 mx-auto md:w-[48%] flex ">
-            <a class="btn text-md bg-transparent border-none text-md md:text-lg  ">View Details</a>
-            <i class="fa-solid fa-square-arrow-up-right  rounded-full text-2xl   ;
-      "></i>
+          <div class="px-5">
+            <textarea class="textarea textarea-bordered text-left items-center w-[100%] md:w-[48%]  flex my-8  h-40 md:mx-auto col-span-4 " placeholder="write yhour message here"></textarea>
           </div>
+         <div class="items-center justify-center flex ">
+          <a class="btn bg-[#a0d761] shadow-none border-none w-[48%]  rounded-3xl md:text-lg">View Details <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+            fill="currentColor " class="bi bi-arrow-up-right-circle-fill text-black w-6 h-6" viewBox="0 0 16 16">
+            <path
+                d="M0 8a8 8 0 1 0 16 0A8 8 0 0 0 0 8m5.904 2.803a.5.5 0 1 1-.707-.707L9.293 6H6.525a.5.5 0 1 1 0-1H10.5a.5.5 0 0 1 .5.5v3.975a.5.5 0 0 1-1 0V6.707z" />
+        </svg></a>
+         </div>
            
         </div>
 
@@ -406,24 +439,30 @@
    <footer>
     <div>
       <footer class="footer footer-center bg-black text-white rounded p-10">
-        <div class=" navbar-start items-center justify-center flex">
-          <i class="fa-solid fa-square-arrow-up-right  rounded-full text-xl md:text-xl bg-[#ABEF5F] p-2 h-9 ;
-          ]"></i> 
-          <a class="btn btn-ghost text-2xl ">Rinterio</a>
+        <div class=" navbar-center  items-center justify-center ">
+          <a class="btn btn-ghost text-xl md:text-2xl navbar-center md:navbar "> <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26"
+            fill="currentColor" class="bi bi-arrow-up-right-circle-fill arrow-text-black text-[#ABEF5F] "
+            viewBox="0 0 16 16">
+            <path
+                d="M0 8a8 8 0 1 0 16 0A8 8 0 0 0 0 8m5.904 2.803a.5.5 0 1 1-.707-.707L9.293 6H6.525a.5.5 0 1 1 0-1H10.5a.5.5 0 0 1 .5.5v3.975a.5.5 0 0 1-1 0V6.707z" />
+        </svg>
+        </svg >Rinterio</a>
         </div>
         <div>
-          <p class="max-w-md md:text-md text-wrap">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents.</p>
+          <p class="md:max-w-md md:text-md text-wrap">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents.</p>
         </div>
-        <nav class="grid grid-flow-col gap-8 md:text-lg">
+        <nav class="grid md:grid-flow-col gap-8 md:text-lg">
           <a class="link link-hover">About us</a>
           <a class="link link-hover">Contact</a>
           <a class="link link-hover">Jobs</a>
           <a class="link link-hover">Press kit</a>
         </nav>
-        <div class="bg-[#ABEF5F] items-center rounded-3xl justify-center px-2 mx-auto md:w-[13%] flex ">
-          <a class="btn text-md bg-transparent border-none text-md md:text-lg  ">Send Mail</a>
-          <i class="fa-solid fa-square-arrow-up-right  rounded-full text-2xl   ;
-    "></i>
+        <div class="items-center rounded-3xl justify-center px-2 mx-auto md:w-[13%] flex ">
+          <a class="btn bg-[#a0d761] w-96 md:w-40 rounded-3xl  md:text-lg">Send Mail <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+            fill="currentColor " class="bi bi-arrow-up-right-circle-fill  w-6 h-6" viewBox="0 0 16 16">
+            <path
+                d="M0 8a8 8 0 1 0 16 0A8 8 0 0 0 0 8m5.904 2.803a.5.5 0 1 1-.707-.707L9.293 6H6.525a.5.5 0 1 1 0-1H10.5a.5.5 0 0 1 .5.5v3.975a.5.5 0 0 1-1 0V6.707z" />
+        </svg></a>
         </div>
           
       </footer>
